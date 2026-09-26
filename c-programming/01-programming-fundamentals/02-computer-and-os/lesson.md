@@ -16,7 +16,7 @@ seo_keywords:
 ---
 # Where a program lives while it runs
 
-![A program is loaded from storage into memory, the processor runs it, input and output reach the keyboard and terminal, and the operating system manages memory, files, and device access.](program-in-memory-and-os.svg)
+![Program loaded from storage into memory, run by the processor, with input and output managed by the operating system.](program-in-memory-and-os.svg)
 
 The workshop's program starts as a file on storage. When someone runs it, the computer puts its instructions and working data in memory. The processor follows those instructions, doing calculations and comparisons. A keyboard, a file, or a terminal window lets the program receive input or send output.
 
