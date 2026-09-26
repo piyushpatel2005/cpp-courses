@@ -16,6 +16,8 @@ seo_keywords:
 ---
 # Where a program lives while it runs
 
+![Program loaded from storage into memory, run by the processor, with input and output managed by the operating system.](program-in-memory-and-os.svg)
+
 The workshop's program starts as a file on storage. When someone runs it, the computer puts its instructions and working data in memory. The processor follows those instructions, doing calculations and comparisons. A keyboard, a file, or a terminal window lets the program receive input or send output.
 
 The operating system starts programs and manages the resources they share. It arranges access to memory and files and receives a program's exit status. A C program can use its services to write to the terminal without knowing how the display hardware works.
