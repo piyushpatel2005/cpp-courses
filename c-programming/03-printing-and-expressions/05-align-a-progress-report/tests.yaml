@@ -1,0 +1,3 @@
+blocks:
+  - index: 0
+    expected_output: "Done:   8 | Time: 2.50 h | Goal: 80%"

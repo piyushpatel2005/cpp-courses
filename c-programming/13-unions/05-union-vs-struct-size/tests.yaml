@@ -1,0 +1,7 @@
+blocks:
+- index: 0
+  expected_output: 'Union fits int: 1
+
+    Union fits double: 1
+
+    Struct has both fields: 1'

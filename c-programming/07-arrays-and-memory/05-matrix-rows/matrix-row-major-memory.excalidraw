@@ -1,0 +1,418 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "InterCourses C lessons",
+  "elements": [
+    {
+      "type": "text",
+      "id": "heading",
+      "x": 180,
+      "y": 21,
+      "width": 740,
+      "height": 36,
+      "text": "Two rows in one sequence",
+      "originalText": "Two rows in one sequence",
+      "fontSize": 27,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle"
+    },
+    {
+      "type": "rectangle",
+      "id": "box-0",
+      "x": 38.0,
+      "y": 108,
+      "width": 143.16666666666666,
+      "height": 134,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeColor": "#273449",
+      "boundElements": [
+        {
+          "id": "text-0",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-0",
+      "x": 47.0,
+      "y": 139,
+      "width": 125.16666666666666,
+      "height": 70,
+      "text": "row 0 col 0\n2",
+      "originalText": "row 0 col 0\n2",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-0",
+      "autoResize": false
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-1",
+      "x": 181.16666666666666,
+      "y": 175.0,
+      "width": 33.0,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          33.0,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155",
+      "startBinding": {
+        "elementId": "box-0",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "box-1",
+        "fixedPoint": [
+          0,
+          0.5
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "box-1",
+      "x": 214.16666666666666,
+      "y": 108,
+      "width": 143.16666666666666,
+      "height": 134,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeColor": "#273449",
+      "boundElements": [
+        {
+          "id": "text-1",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-1",
+      "x": 223.16666666666666,
+      "y": 139,
+      "width": 125.16666666666666,
+      "height": 70,
+      "text": "row 0 col 1\n4",
+      "originalText": "row 0 col 1\n4",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-1",
+      "autoResize": false
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-2",
+      "x": 357.3333333333333,
+      "y": 175.0,
+      "width": 33.0,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          33.0,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155",
+      "startBinding": {
+        "elementId": "box-1",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "box-2",
+        "fixedPoint": [
+          0,
+          0.5
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "box-2",
+      "x": 390.3333333333333,
+      "y": 108,
+      "width": 143.16666666666666,
+      "height": 134,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeColor": "#273449",
+      "boundElements": [
+        {
+          "id": "text-2",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-2",
+      "x": 399.3333333333333,
+      "y": 139,
+      "width": 125.16666666666666,
+      "height": 70,
+      "text": "row 0 col 2\n6",
+      "originalText": "row 0 col 2\n6",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-2",
+      "autoResize": false
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-3",
+      "x": 533.5,
+      "y": 175.0,
+      "width": 33.0,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          33.0,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155",
+      "startBinding": {
+        "elementId": "box-2",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "box-3",
+        "fixedPoint": [
+          0,
+          0.5
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "box-3",
+      "x": 566.5,
+      "y": 108,
+      "width": 143.16666666666666,
+      "height": 134,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeColor": "#273449",
+      "boundElements": [
+        {
+          "id": "text-3",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-3",
+      "x": 575.5,
+      "y": 139,
+      "width": 125.16666666666666,
+      "height": 70,
+      "text": "row 1 col 0\n1",
+      "originalText": "row 1 col 0\n1",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-3",
+      "autoResize": false
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-4",
+      "x": 709.6666666666666,
+      "y": 175.0,
+      "width": 33.0,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          33.0,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155",
+      "startBinding": {
+        "elementId": "box-3",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "box-4",
+        "fixedPoint": [
+          0,
+          0.5
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "box-4",
+      "x": 742.6666666666666,
+      "y": 108,
+      "width": 143.16666666666666,
+      "height": 134,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeColor": "#273449",
+      "boundElements": [
+        {
+          "id": "text-4",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-4",
+      "x": 751.6666666666666,
+      "y": 139,
+      "width": 125.16666666666666,
+      "height": 70,
+      "text": "row 1 col 1\n3",
+      "originalText": "row 1 col 1\n3",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-4",
+      "autoResize": false
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-5",
+      "x": 885.8333333333333,
+      "y": 175.0,
+      "width": 33.0,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          33.0,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155",
+      "startBinding": {
+        "elementId": "box-4",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "box-5",
+        "fixedPoint": [
+          0,
+          0.5
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "box-5",
+      "x": 918.8333333333333,
+      "y": 108,
+      "width": 143.16666666666666,
+      "height": 134,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeColor": "#273449",
+      "boundElements": [
+        {
+          "id": "text-5",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-5",
+      "x": 927.8333333333333,
+      "y": 139,
+      "width": 125.16666666666666,
+      "height": 70,
+      "text": "row 1 col 2\n5",
+      "originalText": "row 1 col 2\n5",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-5",
+      "autoResize": false
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#fffdf8"
+  },
+  "files": {}
+}

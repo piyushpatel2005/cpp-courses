@@ -1,0 +1,5 @@
+blocks:
+- index: 0
+  expected_output: 'Attempt 3
+
+    Gate closed'

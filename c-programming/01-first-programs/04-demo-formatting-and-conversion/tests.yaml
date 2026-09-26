@@ -1,0 +1,5 @@
+blocks:
+- index: 0
+  expected_output: 'Apples: 5; per basket: 2.50'
+- index: 1
+  expected_output: 'Aisle C: 1.25 kg'

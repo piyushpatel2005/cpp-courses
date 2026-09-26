@@ -1,0 +1,375 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "InterCourses C beginner lessons",
+  "elements": [
+    {
+      "type": "text",
+      "id": "heading",
+      "x": 120,
+      "y": 12,
+      "width": 740,
+      "height": 40,
+      "text": "How a for Loop Repeats",
+      "originalText": "How a for Loop Repeats",
+      "fontSize": 25,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-0",
+      "x": 490,
+      "y": 141,
+      "width": 0,
+      "height": 52,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          52
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-1",
+      "x": 630,
+      "y": 230,
+      "width": 95,
+      "height": 109,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          95,
+          0
+        ],
+        [
+          95,
+          109
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155"
+    },
+    {
+      "type": "text",
+      "id": "edge-label-1",
+      "x": 647,
+      "y": 194,
+      "width": 66,
+      "height": 26,
+      "text": "Yes",
+      "originalText": "Yes",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-2",
+      "x": 220,
+      "y": 230,
+      "width": 130,
+      "height": 109,
+      "points": [
+        [
+          130,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          109
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155"
+    },
+    {
+      "type": "text",
+      "id": "edge-label-2",
+      "x": 259,
+      "y": 194,
+      "width": 66,
+      "height": 26,
+      "text": "No",
+      "originalText": "No",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-3",
+      "x": 725,
+      "y": 411,
+      "width": 0,
+      "height": 54,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          54
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-4",
+      "x": 490,
+      "y": 268,
+      "width": 85,
+      "height": 232,
+      "points": [
+        [
+          85,
+          232
+        ],
+        [
+          30,
+          232
+        ],
+        [
+          30,
+          35
+        ],
+        [
+          0,
+          35
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155"
+    },
+    {
+      "type": "rectangle",
+      "id": "init",
+      "x": 350,
+      "y": 77,
+      "width": 280,
+      "height": 64,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#d6eaff",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-init",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-init",
+      "x": 362,
+      "y": 87,
+      "width": 256,
+      "height": 44,
+      "text": "Set box = 1",
+      "originalText": "Set box = 1",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "init"
+    },
+    {
+      "type": "rectangle",
+      "id": "check",
+      "x": 350,
+      "y": 193,
+      "width": 280,
+      "height": 75,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#fff3c4",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-check",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-check",
+      "x": 362,
+      "y": 203,
+      "width": 256,
+      "height": 55,
+      "text": "box <= 3?",
+      "originalText": "box <= 3?",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "check"
+    },
+    {
+      "type": "rectangle",
+      "id": "body",
+      "x": 575,
+      "y": 339,
+      "width": 300,
+      "height": 72,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#d9f8e3",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-body",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-body",
+      "x": 587,
+      "y": 349,
+      "width": 276,
+      "height": 52,
+      "text": "Print Box number",
+      "originalText": "Print Box number",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "body"
+    },
+    {
+      "type": "rectangle",
+      "id": "update",
+      "x": 575,
+      "y": 465,
+      "width": 300,
+      "height": 70,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#e9ddff",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-update",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-update",
+      "x": 587,
+      "y": 475,
+      "width": 276,
+      "height": 50,
+      "text": "box++",
+      "originalText": "box++",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "update"
+    },
+    {
+      "type": "rectangle",
+      "id": "exit",
+      "x": 80,
+      "y": 339,
+      "width": 280,
+      "height": 72,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#d6eaff",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-exit",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-exit",
+      "x": 92,
+      "y": 349,
+      "width": 256,
+      "height": 52,
+      "text": "All boxes labeled",
+      "originalText": "All boxes labeled",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "exit"
+    },
+    {
+      "type": "text",
+      "id": "note-0",
+      "x": 105,
+      "y": 567,
+      "width": 770,
+      "height": 24,
+      "text": "The update happens after the body; the condition is checked again.",
+      "originalText": "The update happens after the body; the condition is checked again.",
+      "fontSize": 17,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

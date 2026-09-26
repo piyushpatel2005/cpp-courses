@@ -1,0 +1,3 @@
+blocks:
+  - index: 0
+    expected_output: "Open rack spots: 4\nRack capacity: 10"

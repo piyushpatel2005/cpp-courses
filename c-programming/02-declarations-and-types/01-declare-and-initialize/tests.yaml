@@ -1,0 +1,3 @@
+blocks:
+  - index: 0
+    expected_output: "Glue tubes: 3; shelves: 2"

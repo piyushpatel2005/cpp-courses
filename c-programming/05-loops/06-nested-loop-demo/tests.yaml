@@ -1,0 +1,13 @@
+blocks:
+- index: 0
+  expected_output: 'R1-P1
+
+    R1-P2
+
+    R1-P3
+
+    R2-P1
+
+    R2-P2
+
+    R2-P3'

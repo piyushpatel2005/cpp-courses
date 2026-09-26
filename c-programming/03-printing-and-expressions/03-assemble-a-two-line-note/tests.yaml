@@ -1,0 +1,3 @@
+blocks:
+  - index: 0
+    expected_output: "Lantern: \"ready\"\nShelf \\ pickup"

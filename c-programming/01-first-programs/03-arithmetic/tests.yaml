@@ -1,0 +1,5 @@
+blocks:
+  - index: 0
+    expected_output: "Total: 14"
+  - index: 1
+    expected_output: "Groups: 3, leftover: 1"

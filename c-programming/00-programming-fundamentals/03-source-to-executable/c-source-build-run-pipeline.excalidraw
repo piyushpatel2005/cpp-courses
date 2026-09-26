@@ -1,0 +1,276 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "InterCourses C lessons",
+  "elements": [
+    {
+      "type": "text",
+      "id": "heading",
+      "x": 180,
+      "y": 21,
+      "width": 740,
+      "height": 36,
+      "text": "From source to a running C program",
+      "originalText": "From source to a running C program",
+      "fontSize": 27,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle"
+    },
+    {
+      "type": "rectangle",
+      "id": "box-0",
+      "x": 38.0,
+      "y": 108,
+      "width": 231.25,
+      "height": 134,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeColor": "#273449",
+      "boundElements": [
+        {
+          "id": "text-0",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-0",
+      "x": 47.0,
+      "y": 139,
+      "width": 213.25,
+      "height": 70,
+      "text": "source\nmain.c",
+      "originalText": "source\nmain.c",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-0",
+      "autoResize": false
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-1",
+      "x": 269.25,
+      "y": 175.0,
+      "width": 33.0,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          33.0,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155",
+      "startBinding": {
+        "elementId": "box-0",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "box-1",
+        "fixedPoint": [
+          0,
+          0.5
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "box-1",
+      "x": 302.25,
+      "y": 108,
+      "width": 231.25,
+      "height": 134,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "strokeColor": "#273449",
+      "boundElements": [
+        {
+          "id": "text-1",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-1",
+      "x": 311.25,
+      "y": 139,
+      "width": 213.25,
+      "height": 70,
+      "text": "compiler\nchecks + translates",
+      "originalText": "compiler\nchecks + translates",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-1",
+      "autoResize": false
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-2",
+      "x": 533.5,
+      "y": 175.0,
+      "width": 33.0,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          33.0,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155",
+      "startBinding": {
+        "elementId": "box-1",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "box-2",
+        "fixedPoint": [
+          0,
+          0.5
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "box-2",
+      "x": 566.5,
+      "y": 108,
+      "width": 231.25,
+      "height": 134,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#fff3bf",
+      "fillStyle": "solid",
+      "strokeColor": "#273449",
+      "boundElements": [
+        {
+          "id": "text-2",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-2",
+      "x": 575.5,
+      "y": 139,
+      "width": 213.25,
+      "height": 70,
+      "text": "linker\njoins libraries",
+      "originalText": "linker\njoins libraries",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-2",
+      "autoResize": false
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-3",
+      "x": 797.75,
+      "y": 175.0,
+      "width": 33.0,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          33.0,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155",
+      "startBinding": {
+        "elementId": "box-2",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "box-3",
+        "fixedPoint": [
+          0,
+          0.5
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "box-3",
+      "x": 830.75,
+      "y": 108,
+      "width": 231.25,
+      "height": 134,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeColor": "#273449",
+      "boundElements": [
+        {
+          "id": "text-3",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-3",
+      "x": 839.75,
+      "y": 139,
+      "width": 213.25,
+      "height": 70,
+      "text": "executable\nrun ./main",
+      "originalText": "executable\nrun ./main",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-3",
+      "autoResize": false
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#fffdf8"
+  },
+  "files": {}
+}

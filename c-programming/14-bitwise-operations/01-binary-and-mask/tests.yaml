@@ -1,0 +1,5 @@
+blocks:
+- index: 0
+  expected_output: 'Repair light on: 1
+
+    First light on: 0'

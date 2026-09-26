@@ -1,0 +1,3 @@
+blocks:
+  - index: 0
+    expected_output: "Bolts: 11 | Whole: 5 | Average: 5.50"

@@ -1,0 +1,3 @@
+blocks:
+  - index: 0
+    expected_output: "Bench D: 2 fans in 1.5 hours"

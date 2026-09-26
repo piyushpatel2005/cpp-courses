@@ -1,0 +1,7 @@
+blocks:
+- index: 0
+  expected_output: 'First: 3
+
+    Second: 5
+
+    Same element: 5'

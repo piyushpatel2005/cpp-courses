@@ -1,0 +1,5 @@
+blocks:
+  - index: 0
+    expected_output: "Bring a coat\nCheck complete"
+  - index: 1
+    expected_output: "Mild"

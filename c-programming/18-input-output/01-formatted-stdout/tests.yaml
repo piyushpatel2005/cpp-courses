@@ -1,0 +1,3 @@
+blocks:
+  - index: 0
+    expected_output: "Mending: 8 places"

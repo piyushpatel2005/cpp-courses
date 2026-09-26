@@ -1,0 +1,5 @@
+blocks:
+- index: 0
+  expected_output: 'Mask: 8
+
+    Bit 3: 1'

@@ -1,0 +1,5 @@
+blocks:
+  - index: 0
+    expected_output: "Tickets: 3\nTickets now: 5"
+  - index: 1
+    expected_output: "Zone B is 2.5 km away"

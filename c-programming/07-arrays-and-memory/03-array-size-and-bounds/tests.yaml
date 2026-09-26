@@ -1,0 +1,5 @@
+blocks:
+- index: 0
+  expected_output: 'Bins: 5
+
+    Last bin: 10'

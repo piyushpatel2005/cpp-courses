@@ -1,0 +1,5 @@
+blocks:
+- index: 0
+  expected_output: 'Count: 7
+
+    Grade: A'

@@ -1,0 +1,5 @@
+blocks:
+  - index: 0
+    expected_output: "Space 1\nSpace 2\nSpace 3\nDone"
+  - index: 1
+    expected_output: "Width: 2\nWidth: 4\nWidth: 8\nWidth limit reached"

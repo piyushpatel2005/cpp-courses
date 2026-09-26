@@ -1,0 +1,5 @@
+blocks:
+  - index: 0
+    expected_output: "Library open"
+  - index: 1
+    expected_output: "Shelf A\nShelf B"

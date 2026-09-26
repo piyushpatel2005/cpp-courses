@@ -1,0 +1,335 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "InterCourses C beginner lessons",
+  "elements": [
+    {
+      "type": "text",
+      "id": "heading",
+      "x": 120,
+      "y": 12,
+      "width": 740,
+      "height": 40,
+      "text": "How a Function Returns a Value",
+      "originalText": "How a Function Returns a Value",
+      "fontSize": 25,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-0",
+      "x": 393,
+      "y": 187,
+      "width": 186,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          186,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155"
+    },
+    {
+      "type": "text",
+      "id": "edge-label-0",
+      "x": 453,
+      "y": 133,
+      "width": 66,
+      "height": 26,
+      "text": "Call",
+      "originalText": "Call",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-1",
+      "x": 745,
+      "y": 238,
+      "width": 0,
+      "height": 81,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          81
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-2",
+      "x": 393,
+      "y": 359,
+      "width": 186,
+      "height": 0,
+      "points": [
+        [
+          186,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155"
+    },
+    {
+      "type": "text",
+      "id": "edge-label-2",
+      "x": 453,
+      "y": 321,
+      "width": 66,
+      "height": 26,
+      "text": "Return",
+      "originalText": "Return",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-3",
+      "x": 230,
+      "y": 399,
+      "width": 0,
+      "height": 66,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          66
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155"
+    },
+    {
+      "type": "rectangle",
+      "id": "main",
+      "x": 68,
+      "y": 143,
+      "width": 325,
+      "height": 95,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#d6eaff",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-main",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-main",
+      "x": 80,
+      "y": 153,
+      "width": 301,
+      "height": 75,
+      "text": "main:\nresult = double_points(4)",
+      "originalText": "main:\nresult = double_points(4)",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "main"
+    },
+    {
+      "type": "rectangle",
+      "id": "param",
+      "x": 579,
+      "y": 143,
+      "width": 332,
+      "height": 95,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#e9ddff",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-param",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-param",
+      "x": 591,
+      "y": 153,
+      "width": 308,
+      "height": 75,
+      "text": "double_points:\npoints receives 4",
+      "originalText": "double_points:\npoints receives 4",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "param"
+    },
+    {
+      "type": "rectangle",
+      "id": "calc",
+      "x": 579,
+      "y": 319,
+      "width": 332,
+      "height": 80,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#d9f8e3",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-calc",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-calc",
+      "x": 591,
+      "y": 329,
+      "width": 308,
+      "height": 60,
+      "text": "Return points * 2 = 8",
+      "originalText": "Return points * 2 = 8",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "calc"
+    },
+    {
+      "type": "rectangle",
+      "id": "resume",
+      "x": 68,
+      "y": 319,
+      "width": 325,
+      "height": 80,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#d6eaff",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-resume",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-resume",
+      "x": 80,
+      "y": 329,
+      "width": 301,
+      "height": 60,
+      "text": "main: result receives 8",
+      "originalText": "main: result receives 8",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "resume"
+    },
+    {
+      "type": "rectangle",
+      "id": "print",
+      "x": 68,
+      "y": 465,
+      "width": 325,
+      "height": 72,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#d9f8e3",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-print",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-print",
+      "x": 80,
+      "y": 475,
+      "width": 301,
+      "height": 52,
+      "text": "Print Result: 8",
+      "originalText": "Print Result: 8",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "print"
+    },
+    {
+      "type": "text",
+      "id": "note-0",
+      "x": 105,
+      "y": 567,
+      "width": 770,
+      "height": 24,
+      "text": "A return value replaces the call expression; main prints it afterward.",
+      "originalText": "A return value replaces the call expression; main prints it afterward.",
+      "fontSize": 17,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

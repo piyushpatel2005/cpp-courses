@@ -1,0 +1,5 @@
+blocks:
+  - index: 0
+    expected_output: "Box 1\nBox 2\nBox 3\nAll boxes labeled"
+  - index: 1
+    expected_output: "Sum: 10"

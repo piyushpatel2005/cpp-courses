@@ -1,0 +1,5 @@
+blocks:
+- index: 0
+  expected_output: 'Toggled: 1
+
+    Cleared: 1'

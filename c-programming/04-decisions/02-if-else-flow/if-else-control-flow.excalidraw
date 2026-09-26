@@ -1,0 +1,383 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "InterCourses C beginner lessons",
+  "elements": [
+    {
+      "type": "text",
+      "id": "heading",
+      "x": 120,
+      "y": 12,
+      "width": 740,
+      "height": 40,
+      "text": "How if and else Choose a Path",
+      "originalText": "How if and else Choose a Path",
+      "fontSize": 25,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-0",
+      "x": 490,
+      "y": 138,
+      "width": 0,
+      "height": 42,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          42
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-1",
+      "x": 215,
+      "y": 218,
+      "width": 150,
+      "height": 103,
+      "points": [
+        [
+          150,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          103
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155"
+    },
+    {
+      "type": "text",
+      "id": "edge-label-1",
+      "x": 257,
+      "y": 184,
+      "width": 66,
+      "height": 26,
+      "text": "Yes",
+      "originalText": "Yes",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-2",
+      "x": 615,
+      "y": 218,
+      "width": 150,
+      "height": 103,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          150,
+          0
+        ],
+        [
+          150,
+          103
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155"
+    },
+    {
+      "type": "text",
+      "id": "edge-label-2",
+      "x": 655,
+      "y": 184,
+      "width": 66,
+      "height": 26,
+      "text": "No",
+      "originalText": "No",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-3",
+      "x": 215,
+      "y": 397,
+      "width": 275,
+      "height": 79,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          51
+        ],
+        [
+          275,
+          51
+        ],
+        [
+          275,
+          79
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-4",
+      "x": 635,
+      "y": 397,
+      "width": 130,
+      "height": 115,
+      "points": [
+        [
+          130,
+          0
+        ],
+        [
+          130,
+          51
+        ],
+        [
+          10,
+          51
+        ],
+        [
+          10,
+          115
+        ],
+        [
+          0,
+          115
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#334155"
+    },
+    {
+      "type": "rectangle",
+      "id": "start",
+      "x": 390,
+      "y": 76,
+      "width": 200,
+      "height": 62,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#d6eaff",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-start",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-start",
+      "x": 402,
+      "y": 86,
+      "width": 176,
+      "height": 42,
+      "text": "Enter main",
+      "originalText": "Enter main",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "start"
+    },
+    {
+      "type": "rectangle",
+      "id": "condition",
+      "x": 365,
+      "y": 180,
+      "width": 250,
+      "height": 76,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#fff3c4",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-condition",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-condition",
+      "x": 377,
+      "y": 190,
+      "width": 226,
+      "height": 56,
+      "text": "temperature < 10?",
+      "originalText": "temperature < 10?",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "condition"
+    },
+    {
+      "type": "rectangle",
+      "id": "yes",
+      "x": 75,
+      "y": 321,
+      "width": 280,
+      "height": 76,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#d9f8e3",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-yes",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-yes",
+      "x": 87,
+      "y": 331,
+      "width": 256,
+      "height": 56,
+      "text": "if: Bring a coat",
+      "originalText": "if: Bring a coat",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "yes"
+    },
+    {
+      "type": "rectangle",
+      "id": "no",
+      "x": 625,
+      "y": 321,
+      "width": 280,
+      "height": 76,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#e9ddff",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-no",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-no",
+      "x": 637,
+      "y": 331,
+      "width": 256,
+      "height": 56,
+      "text": "else: Light layers",
+      "originalText": "else: Light layers",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "no"
+    },
+    {
+      "type": "rectangle",
+      "id": "join",
+      "x": 345,
+      "y": 476,
+      "width": 290,
+      "height": 72,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#d6eaff",
+      "fillStyle": "solid",
+      "boundElements": [
+        {
+          "id": "text-join",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-join",
+      "x": 357,
+      "y": 486,
+      "width": 266,
+      "height": 52,
+      "text": "Check complete",
+      "originalText": "Check complete",
+      "fontSize": 19,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true,
+      "containerId": "join"
+    },
+    {
+      "type": "text",
+      "id": "note-0",
+      "x": 105,
+      "y": 567,
+      "width": 770,
+      "height": 24,
+      "text": "Exactly one branch executes, then execution continues below the if/else.",
+      "originalText": "Exactly one branch executes, then execution continues below the if/else.",
+      "fontSize": 17,
+      "fontFamily": 1,
+      "strokeColor": "#172033",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "autoResize": true
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

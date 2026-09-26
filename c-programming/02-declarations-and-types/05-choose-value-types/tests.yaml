@@ -1,0 +1,3 @@
+blocks:
+  - index: 0
+    expected_output: "Shelf B: 6 hinges, 1.5 kg"
