@@ -65,12 +65,10 @@ modules:
     title: Input and Output Safely
     sort_order: 18
 ---
-# Small programs for a neighborhood repair workshop
+# C as your first language
 
-First, find out what a program is and what happens between writing a source file and running it. We compare compiled and interpreted workflows before asking you to write much C. Then you will make signs for the repair desk, keep stock counts, check pickup codes, and record repairs. Each section gives you a small runnable example before asking you to try a different job yourself. A quiz closes the section.
+C-language has evolved so much over its lifespan. It started as a small language with features to manage memory under the hood in those days when memory was very scarce. There were computers with MBs of disk space and the concept of saving memory was paramount. C provides beautiful constructs to efficiently use memory without over-allocating space. That's also one of the reasons why C programs tend to be very efficient and fast.
 
-The course draws on Stephen G. Kochan's *Programming in C*, fourth edition. Chapter 1 informs the opening section; Chapters 2–7 build the C basics; Chapters 8–10 lead into structures, strings, and pointers. Later sections draw on Chapters 11–13 and selected topics from Chapters 15–16: bitwise operations, the preprocessor, named types, input/output, unions, and allocated storage. The prose, programs, tasks, and diagrams are original. We put decisions before loops so you can read a condition before writing one, and give pointers their own section rather than burying them at the end of arrays.
+In this course, you will learn C programming as your first programming language. This course is for beginners who have no experience with programming. 
 
-On a machine with GCC, compile a complete example with `gcc -std=c11 -Wall -Wextra main.c -o main`, then run `./main`. The site's C runner may also be available. Some input and file operations require a local terminal; the relevant lessons say so. Output checks can confirm what a program printed, but not every possible path it might take. Try the suggested alternate values, especially around branch boundaries and pointer validity.
-
-Diagrams show parts you cannot see by looking at output alone: how source becomes an executable, which array slot an index selects, what occupies a string's final byte, and how two pointer expressions reach one object. Trace the diagram against its code before running the example.
+You will start from the basics of programming and learn new concepts one step at a time. You will also gain hands on practice with interactive lessons where you actually type the code and validate the results. In between, you will be asked to write a small practical project to deeply understand the syntax. For this course, you do not need to install anything, but if you want to follow along on your personal laptop, you can do so.
